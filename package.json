@@ -1,0 +1,19 @@
+{
+  "name": "twrite-server",
+  "version": "1.0.0",
+  "description": "twrite server for showwcase hackfest",
+  "main": "server.js",
+  "repository": "git@github.com:webDevTolu/twrite-server.git",
+  "author": "tolu-c <tolu.adeyemo7@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "yarn compile && node ./dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.4"
+  }
+}
