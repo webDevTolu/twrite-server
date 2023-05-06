@@ -9,6 +9,8 @@
     "lib": [
       "es2020"
     ],
+    "sourceMap": true,
+    "noImplicitAny": true,
     "target": "es2020",
     "module": "NodeNext",
     "moduleResolution": "nodenext",
